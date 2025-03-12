@@ -1,14 +1,22 @@
-name: empty
+name: jokes_app
 description: "A new Flutter project."
 publish_to: 'none'
 version: 0.1.0
 
 environment:
-  sdk: ^3.5.4
+  sdk: ">=3.5.4 <4.0.0"  # Verifica que la versión del SDK de Flutter sea compatible
 
 dependencies:
   flutter:
     sdk: flutter
+  faker: ^2.0.0
+  flutter_svg: ^2.0.17
+  camera: ^0.11.1
+  audioplayers: ^6.1.2
+  cross_file: ^0.3.3
+  path_provider: ^2.0.11
+  http: ^1.3.0  # Asegúrate de que esta versión de http sea la correcta para tu proyecto
+  provider: ^6.1.2
 
 dev_dependencies:
   flutter_test:
